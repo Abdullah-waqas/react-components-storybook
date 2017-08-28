@@ -1,5 +1,5 @@
 import React from 'react';
-import MainSection from '../MainSection';
+import MainSection from '../components/MainSection';
 import { storiesOf, action } from '@kadira/storybook';
 
 storiesOf('MainSection', module)

@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoItem from '../TodoItem';
+import TodoItem from '../components/TodoItem';
 import { storiesOf, action } from '@kadira/storybook';
 
 storiesOf('TodoItem', module)

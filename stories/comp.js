@@ -1,12 +1,12 @@
 import React from 'react';
-import Footer from '../Footer';
-import Card from '../Card';
-import Acccordion from '../accordion';
-import Buttons from '../buttons';
+import Footer from '../components/Footer';
+import Card from '../components/Card';
+import Acccordion from '../components/accordion';
+import Buttons from '../components/buttons';
 import { storiesOf, action } from '@kadira/storybook';
 import {
   SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE
-} from '../../constants/TodoFilters'
+} from '../constants/TodoFilters'
 
 storiesOf('Components', module)
   .add('card view', () => (

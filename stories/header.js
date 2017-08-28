@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header';
+import Header from '../components/Header';
 import { storiesOf, action } from '@kadira/storybook';
 
 storiesOf('Header', module)

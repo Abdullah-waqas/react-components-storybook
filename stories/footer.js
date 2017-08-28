@@ -1,10 +1,10 @@
 import React from 'react';
-import Footer from '../Footer';
-import Card from '../Card';
+import Footer from '../components/Footer';
+import Card from '../components/Card';
 import { storiesOf, action } from '@kadira/storybook';
 import {
   SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE
-} from '../../constants/TodoFilters'
+} from '../constants/TodoFilters'
 
 storiesOf('Footer', module)
   .add('default view', () => (
